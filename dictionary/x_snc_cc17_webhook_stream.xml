@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Webhook Stream" max_length="40" name="x_snc_cc17_webhook_stream" type="collection">
+        <element label="Action" max_length="40" name="action" type="string"/>
+        <element display="true" label="ID" max_length="40" name="id" type="string"/>
+        <element label="Payload" max_length="65535" name="payload" type="string"/>
+        <element label="Source" max_length="40" name="source" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+    </element>
+</database>

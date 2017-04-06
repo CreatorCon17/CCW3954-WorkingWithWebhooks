@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="8497c6142002f2007f44eab520e803c4" sys_domain="global" table="x_snc_cc17_webhook_stream" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>jnerius</sys_created_by>
+            <sys_created_on>2017-04-06 20:39:02</sys_created_on>
+            <sys_id>0097c6142002f2007f44eab520e803ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cc17_webhook_stream" sys_domain="global" view="Default view">8497c6142002f2007f44eab520e803c4</sys_ui_section>
+            <sys_updated_by>jnerius</sys_updated_by>
+            <sys_updated_on>2017-04-06 20:39:02</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>id</element>
+            <position>1</position>
+            <sys_created_by>jnerius</sys_created_by>
+            <sys_created_on>2017-04-06 20:39:02</sys_created_on>
+            <sys_id>0897c6142002f2007f44eab520e803ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cc17_webhook_stream" sys_domain="global" view="Default view">8497c6142002f2007f44eab520e803c4</sys_ui_section>
+            <sys_updated_by>jnerius</sys_updated_by>
+            <sys_updated_on>2017-04-06 20:39:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>source</element>
+            <position>2</position>
+            <sys_created_by>jnerius</sys_created_by>
+            <sys_created_on>2017-04-06 20:39:02</sys_created_on>
+            <sys_id>8897c6142002f2007f44eab520e803ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cc17_webhook_stream" sys_domain="global" view="Default view">8497c6142002f2007f44eab520e803c4</sys_ui_section>
+            <sys_updated_by>jnerius</sys_updated_by>
+            <sys_updated_on>2017-04-06 20:39:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>jnerius</sys_created_by>
+            <sys_created_on>2017-04-06 20:39:02</sys_created_on>
+            <sys_id>0c97c6142002f2007f44eab520e803ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cc17_webhook_stream" sys_domain="global" view="Default view">8497c6142002f2007f44eab520e803c4</sys_ui_section>
+            <sys_updated_by>jnerius</sys_updated_by>
+            <sys_updated_on>2017-04-06 20:39:02</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>action</element>
+            <position>4</position>
+            <sys_created_by>jnerius</sys_created_by>
+            <sys_created_on>2017-04-06 20:39:02</sys_created_on>
+            <sys_id>8c97c6142002f2007f44eab520e803ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cc17_webhook_stream" sys_domain="global" view="Default view">8497c6142002f2007f44eab520e803c4</sys_ui_section>
+            <sys_updated_by>jnerius</sys_updated_by>
+            <sys_updated_on>2017-04-06 20:39:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>jnerius</sys_created_by>
+            <sys_created_on>2017-04-06 20:39:02</sys_created_on>
+            <sys_id>0097c6142002f2007f44eab520e803cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cc17_webhook_stream" sys_domain="global" view="Default view">8497c6142002f2007f44eab520e803c4</sys_ui_section>
+            <sys_updated_by>jnerius</sys_updated_by>
+            <sys_updated_on>2017-04-06 20:39:02</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payload</element>
+            <position>6</position>
+            <sys_created_by>jnerius</sys_created_by>
+            <sys_created_on>2017-04-06 20:39:02</sys_created_on>
+            <sys_id>8097c6142002f2007f44eab520e803cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cc17_webhook_stream" sys_domain="global" view="Default view">8497c6142002f2007f44eab520e803c4</sys_ui_section>
+            <sys_updated_by>jnerius</sys_updated_by>
+            <sys_updated_on>2017-04-06 20:39:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_cc17_webhook_stream</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jnerius</sys_created_by>
+            <sys_created_on>2017-04-06 20:39:02</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8497c6142002f2007f44eab520e803c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_cc17_webhook_stream</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CC17 Working with Webhooks" source="x_snc_cc17_webhook">c1f9d0a4203132007f44eab520e803e3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CC17 Working with Webhooks">c1f9d0a4203132007f44eab520e803e3</sys_scope>
+            <sys_update_name>sys_ui_section_8497c6142002f2007f44eab520e803c4</sys_update_name>
+            <sys_updated_by>jnerius</sys_updated_by>
+            <sys_updated_on>2017-04-06 20:39:02</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

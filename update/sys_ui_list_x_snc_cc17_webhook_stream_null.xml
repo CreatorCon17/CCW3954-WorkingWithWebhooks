@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_cc17_webhook_stream" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>id</element>
+            <list_id display_value="x_snc_cc17_webhook_stream" element="NULL" name="x_snc_cc17_webhook_stream" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">61a70a142002f2007f44eab520e80345</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>jnerius</sys_created_by>
+            <sys_created_on>2017-04-06 20:39:25</sys_created_on>
+            <sys_id>e5a70a142002f2007f44eab520e80345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jnerius</sys_updated_by>
+            <sys_updated_on>2017-04-06 20:39:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>action</element>
+            <list_id display_value="x_snc_cc17_webhook_stream" element="NULL" name="x_snc_cc17_webhook_stream" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">61a70a142002f2007f44eab520e80345</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>jnerius</sys_created_by>
+            <sys_created_on>2017-04-06 20:39:25</sys_created_on>
+            <sys_id>69a70a142002f2007f44eab520e80345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jnerius</sys_updated_by>
+            <sys_updated_on>2017-04-06 20:39:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>source</element>
+            <list_id display_value="x_snc_cc17_webhook_stream" element="NULL" name="x_snc_cc17_webhook_stream" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">61a70a142002f2007f44eab520e80345</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>jnerius</sys_created_by>
+            <sys_created_on>2017-04-06 20:39:25</sys_created_on>
+            <sys_id>e9a70a142002f2007f44eab520e80345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jnerius</sys_updated_by>
+            <sys_updated_on>2017-04-06 20:39:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_cc17_webhook_stream</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>jnerius</sys_created_by>
+            <sys_created_on>2017-04-06 20:39:25</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61a70a142002f2007f44eab520e80345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_cc17_webhook_stream</sys_name>
+            <sys_package display_value="CC17 Working with Webhooks" source="x_snc_cc17_webhook">c1f9d0a4203132007f44eab520e803e3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CC17 Working with Webhooks">c1f9d0a4203132007f44eab520e803e3</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_cc17_webhook_stream_null</sys_update_name>
+            <sys_updated_by>jnerius</sys_updated_by>
+            <sys_updated_on>2017-04-06 20:39:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

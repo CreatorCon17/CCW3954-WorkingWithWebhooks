@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="source" label="Source" language="en" table="x_snc_cc17_webhook_stream">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>source</element>
+            <help/>
+            <hint/>
+            <label>Source</label>
+            <language>en</language>
+            <name>x_snc_cc17_webhook_stream</name>
+            <plural>Sources</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jnerius</sys_created_by>
+            <sys_created_on>2017-04-06 20:38:20</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>716706142002f2007f44eab520e803e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Source</sys_name>
+            <sys_package display_value="CC17 Working with Webhooks" source="x_snc_cc17_webhook">c1f9d0a4203132007f44eab520e803e3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CC17 Working with Webhooks">c1f9d0a4203132007f44eab520e803e3</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_cc17_webhook_stream_source_en</sys_update_name>
+            <sys_updated_by>jnerius</sys_updated_by>
+            <sys_updated_on>2017-04-06 20:38:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
