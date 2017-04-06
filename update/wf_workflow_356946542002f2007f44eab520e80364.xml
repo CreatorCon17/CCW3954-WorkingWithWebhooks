@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{},"subflows":[],"stages":{},"ends":["796946542002f2007f44eab520e80366"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="x_snc_cc17_webhook_stream">source=GitHub^action=push^EQ<item endquery="false" field="source" goto="false" newquery="false" operator="=" or="false" value="GitHub"/>
+            <item endquery="false" field="action" goto="false" newquery="false" operator="=" or="false" value="push"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>716946542002f2007f44eab520e80365,4579c6542002f2007f44eab520e8030c,b8b9c6542002f2007f44eab520e8034e,796946542002f2007f44eab520e80366</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>716946542002f2007f44eab520e80365,4579c6542002f2007f44eab520e8030c,b8b9c6542002f2007f44eab520e8034e,796946542002f2007f44eab520e80366</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>GitHub Push Process</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">716946542002f2007f44eab520e80365</start>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:47:04</sys_created_on>
+        <sys_id>b32982542002f2007f44eab520e80392</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:51:21</sys_updated_on>
+        <table>x_snc_cc17_webhook_stream</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="GitHub Push Process">356946542002f2007f44eab520e80364</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>GitHub Push Process</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:47:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>356946542002f2007f44eab520e80364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GitHub Push Process</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CC17 Working with Webhooks" source="x_snc_cc17_webhook">c1f9d0a4203132007f44eab520e803e3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CC17 Working with Webhooks">c1f9d0a4203132007f44eab520e803e3</sys_scope>
+        <sys_update_name>wf_workflow_356946542002f2007f44eab520e80364</sys_update_name>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:47:04</sys_updated_on>
+        <table>x_snc_cc17_webhook_stream</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:47:04</sys_created_on>
+        <sys_id>716946542002f2007f44eab520e80365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:47:04</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="GitHub Push Process">b32982542002f2007f44eab520e80392</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=716946542002f2007f44eab520e80365"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">716946542002f2007f44eab520e80365</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:47:04</sys_created_on>
+        <sys_id>fd6946542002f2007f44eab520e80365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:47:04</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Build Message Body</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:47:51</sys_created_on>
+        <sys_id>4579c6542002f2007f44eab520e8030c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:47:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="GitHub Push Process">b32982542002f2007f44eab520e80392</workflow_version>
+        <x>181</x>
+        <y>16</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4579c6542002f2007f44eab520e8030c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4579c6542002f2007f44eab520e8030c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:47:51</sys_created_on>
+        <sys_id>5d9946542002f2007f44eab520e80373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:47:51</sys_updated_on>
+        <value>var payloadObject = JSON.parse(current.payload); &#13;
+var message = ""; &#13;
+payloadObject.commits.forEach(function (commit) {&#13;
+    message += "Message: " + commit.message      + "\n"; &#13;
+    message += "URL: "     + commit.url          + "\n"; &#13;
+    message += "Author: "  + commit.author.email + "\n"; &#13;
+    message += "------------------------------------\n"; &#13;
+}); &#13;
+&#13;
+workflow.scratchpad.message = message;</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4579c6542002f2007f44eab520e8030c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:47:51</sys_created_on>
+        <sys_id>5d9946542002f2007f44eab520e80373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:47:51</sys_updated_on>
+        <value>var payloadObject = JSON.parse(current.payload); &#13;
+var message = ""; &#13;
+payloadObject.commits.forEach(function (commit) {&#13;
+    message += "Message: " + commit.message      + "\n"; &#13;
+    message += "URL: "     + commit.url          + "\n"; &#13;
+    message += "Author: "  + commit.author.email + "\n"; &#13;
+    message += "------------------------------------\n"; &#13;
+}); &#13;
+&#13;
+workflow.scratchpad.message = message;</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Build Message Body">4579c6542002f2007f44eab520e8030c</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:47:51</sys_created_on>
+        <sys_id>5d9946542002f2007f44eab520e80374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:47:51</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:47:04</sys_created_on>
+        <sys_id>796946542002f2007f44eab520e80366</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:51:02</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="GitHub Push Process">b32982542002f2007f44eab520e80392</workflow_version>
+        <x>665</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=796946542002f2007f44eab520e80366"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Send Notification</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>b8b9c6542002f2007f44eab520e8034e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:51:00</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="GitHub Push Process">b32982542002f2007f44eab520e80392</workflow_version>
+        <x>424</x>
+        <y>19</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b8b9c6542002f2007f44eab520e8034e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b8b9c6542002f2007f44eab520e8034e</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>1e4a0a542002f2007f44eab520e80326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:56</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b8b9c6542002f2007f44eab520e8034e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>524a0a542002f2007f44eab520e80327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:56</sys_updated_on>
+        <value>New Push from GitHub</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b8b9c6542002f2007f44eab520e8034e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>924a0a542002f2007f44eab520e80326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:56</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b8b9c6542002f2007f44eab520e8034e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>964a0a542002f2007f44eab520e80327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:56</sys_updated_on>
+        <value>${workflow.scratchpad.message}</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b8b9c6542002f2007f44eab520e8034e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>d64a0a542002f2007f44eab520e80326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:56</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b8b9c6542002f2007f44eab520e8034e</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>da4a0a542002f2007f44eab520e80327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:56</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b8b9c6542002f2007f44eab520e8034e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>924a0a542002f2007f44eab520e80326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:56</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b8b9c6542002f2007f44eab520e8034e</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>da4a0a542002f2007f44eab520e80327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:56</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b8b9c6542002f2007f44eab520e8034e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>524a0a542002f2007f44eab520e80327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:56</sys_updated_on>
+        <value>New Push from GitHub</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b8b9c6542002f2007f44eab520e8034e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>964a0a542002f2007f44eab520e80327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:56</sys_updated_on>
+        <value>${workflow.scratchpad.message}</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b8b9c6542002f2007f44eab520e8034e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>d64a0a542002f2007f44eab520e80326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:56</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b8b9c6542002f2007f44eab520e8034e</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>1e4a0a542002f2007f44eab520e80326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:56</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Send Notification">b8b9c6542002f2007f44eab520e8034e</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:56</sys_created_on>
+        <sys_id>164a0a542002f2007f44eab520e80328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:56</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">fd6946542002f2007f44eab520e80365</condition>
+        <from display_value="Begin">716946542002f2007f44eab520e80365</from>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:47:05</sys_created_on>
+        <sys_id>316946542002f2007f44eab520e80367</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:47:52</sys_updated_on>
+        <to display_value="Build Message Body">4579c6542002f2007f44eab520e8030c</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">164a0a542002f2007f44eab520e80328</condition>
+        <from display_value="Send Notification">b8b9c6542002f2007f44eab520e8034e</from>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:50:57</sys_created_on>
+        <sys_id>b64ac6542002f2007f44eab520e803c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:57</sys_updated_on>
+        <to display_value="End">796946542002f2007f44eab520e80366</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">5d9946542002f2007f44eab520e80374</condition>
+        <from display_value="Build Message Body">4579c6542002f2007f44eab520e8030c</from>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:47:52</sys_created_on>
+        <sys_id>e19946542002f2007f44eab520e80358</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:50:57</sys_updated_on>
+        <to display_value="Send Notification">b8b9c6542002f2007f44eab520e8034e</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-06 20:47:04</sys_created_on>
+        <sys_id>b96946542002f2007f44eab520e80363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:47:04</sys_updated_on>
+        <workflow_version display_value="GitHub Push Process">b32982542002f2007f44eab520e80392</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=356946542002f2007f44eab520e80364^sys_id!=b32982542002f2007f44eab520e80392">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>
