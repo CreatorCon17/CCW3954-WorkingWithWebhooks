@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_cc17_webhook.github_secret</name>
+        <read_roles/>
+        <suffix>github_secret</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>jnerius</sys_created_by>
+        <sys_created_on>2017-04-07 02:40:09</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1a2a97542042f2007f44eab520e80329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_cc17_webhook.github_secret</sys_name>
+        <sys_package display_value="CC17 Working with Webhooks" source="x_snc_cc17_webhook">c1f9d0a4203132007f44eab520e803e3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CC17 Working with Webhooks">c1f9d0a4203132007f44eab520e803e3</sys_scope>
+        <sys_update_name>sys_properties_1a2a97542042f2007f44eab520e80329</sys_update_name>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-07 02:40:09</sys_updated_on>
+        <type>string</type>
+        <value>ThisIsNotVerySecret</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=1a2a97542042f2007f44eab520e80329"/>
+</record_update>
