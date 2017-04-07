@@ -9,15 +9,15 @@
         <sys_created_on>2017-04-06 20:51:21</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>a46a8a542002f2007f44eab520e803e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>ScopedWorkflow</sys_name>
         <sys_package display_value="CC17 Working with Webhooks" source="x_snc_cc17_webhook">c1f9d0a4203132007f44eab520e803e3</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CC17 Working with Webhooks">c1f9d0a4203132007f44eab520e803e3</sys_scope>
         <sys_update_name>sys_scope_privilege_a46a8a542002f2007f44eab520e803e1</sys_update_name>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2017-04-06 20:51:21</sys_updated_on>
+        <sys_updated_by>jnerius</sys_updated_by>
+        <sys_updated_on>2017-04-07 02:35:38</sys_updated_on>
         <target_name>ScopedWorkflow</target_name>
         <target_scope display_value="Global">global</target_scope>
         <target_type>scriptable</target_type>
