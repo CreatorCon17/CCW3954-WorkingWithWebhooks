@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>jnerius</sys_created_by>
         <sys_created_on>2017-04-06 20:32:49</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>89264ad02002f2007f44eab520e8032d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>RESTAPIRequestBody</sys_name>

@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>guest</sys_created_by>
         <sys_created_on>2017-04-06 20:51:21</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a46a8a542002f2007f44eab520e803e1</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>ScopedWorkflow</sys_name>

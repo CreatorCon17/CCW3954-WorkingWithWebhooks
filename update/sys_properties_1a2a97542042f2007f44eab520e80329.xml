@@ -11,7 +11,7 @@
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>jnerius</sys_created_by>
         <sys_created_on>2017-04-07 02:40:09</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>1a2a97542042f2007f44eab520e80329</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_cc17_webhook.github_secret</sys_name>
