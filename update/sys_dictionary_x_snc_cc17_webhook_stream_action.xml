@@ -52,8 +52,8 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>jnerius</sys_created_by>
         <sys_created_on>2017-04-06 20:38:16</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>8647ced02002f2007f44eab520e80364</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c94acda02056b6007f44eab520e8037f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Action</sys_name>
         <sys_package display_value="CC17 Working with Webhooks" source="x_snc_cc17_webhook">c1f9d0a4203132007f44eab520e803e3</sys_package>
@@ -61,8 +61,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CC17 Working with Webhooks">c1f9d0a4203132007f44eab520e803e3</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_cc17_webhook_stream_action</sys_update_name>
-        <sys_updated_by>jnerius</sys_updated_by>
-        <sys_updated_on>2017-04-06 20:38:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-04-19 21:05:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

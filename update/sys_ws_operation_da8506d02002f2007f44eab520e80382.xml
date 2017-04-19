@@ -49,7 +49,7 @@
 	}
 
 })(request, response);]]></operation_script>
-        <operation_uri>/api/x_snc_cc17_webhook/webhook_handler/github_webhook</operation_uri>
+        <operation_uri>/api/x_snc_cc17_webhook/v1/webhook_handler/github_webhook</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
         <produces_customized>false</produces_customized>
         <relative_path>/github_webhook</relative_path>
@@ -62,7 +62,7 @@
         <sys_created_on>2017-04-06 20:31:35</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>da8506d02002f2007f44eab520e80382</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>GitHub Webhook</sys_name>
         <sys_package display_value="CC17 Working with Webhooks" source="x_snc_cc17_webhook">c1f9d0a4203132007f44eab520e803e3</sys_package>
         <sys_policy/>
@@ -70,8 +70,8 @@
         <sys_scope display_value="CC17 Working with Webhooks">c1f9d0a4203132007f44eab520e803e3</sys_scope>
         <sys_update_name>sys_ws_operation_da8506d02002f2007f44eab520e80382</sys_update_name>
         <sys_updated_by>jnerius</sys_updated_by>
-        <sys_updated_on>2017-04-07 02:42:52</sys_updated_on>
+        <sys_updated_on>2017-04-19 21:06:54</sys_updated_on>
         <web_service_definition display_value="Webhook Handler">4615c6d02002f2007f44eab520e8033f</web_service_definition>
-        <web_service_version/>
+        <web_service_version display_value="v1">079a4da02056b6007f44eab520e8032b</web_service_version>
     </sys_ws_operation>
 </record_update>
