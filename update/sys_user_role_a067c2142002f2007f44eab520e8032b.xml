@@ -12,7 +12,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>jnerius</sys_created_by>
         <sys_created_on>2017-04-06 20:38:15</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a067c2142002f2007f44eab520e8032b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_cc17_webhook.webhook_stream_user</sys_name>
